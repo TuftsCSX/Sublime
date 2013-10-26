@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Sublime Text</title>
+
+		<meta name="description" content="A presentation about sublime text">
+		<meta name="author" content="Alex Lenail">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body><div class="reveal"><div class="slides">
+
+		<section>
+			<h1>Sublime Text</h1>
+			<p>Alexander Lenail | Tufts Computer Science Exchange</p>
+		</section>
+
+		<section><section>
+			<h3>Editors Matter</h3>
+
+			<img class="fragment roll-in" id="vim" style="margin-right: 20px; margin-top: 20px;" src="img/vim.jpg" />
+			<img class="fragment roll-in" id="emacs" style="margin-left: 20px; margin-top: 20px;" src="img/emacs.jpg" />
+
+		</section>
+
+		<section>
+			<img class="fragment roll-in" id="sublime" src="img/sublime.png" style="border: none; background-color: #111111; " />
+
+			<h2 class="fragment roll-in">Sublime Text</h2>
+
+		</section></section>
+
+		<section>
+			<h2>Why should you use it?</h2>
+				<ol style="margin-top: 40px;">
+					<li class="fragment">It's <strong>beautiful</strong></li>
+					<li class="fragment">A strong developer base</li>
+					<li class="fragment">An easy learning curve</li>
+					<li class="fragment">Built in shortcuts</li>
+					<li class="fragment">Optimizes for extensibility</li>
+				</ol>
+		</section>
+
+
+		<section>
+			<h2>Table of Contents</h2>
+			<ol>
+				<li class="fragment">Installation</li>
+				<li class="fragment">Configuration</li>
+				<li class="fragment">Features</li>
+			</ol>	
+		</section>
+
+		<section><h1>Installation</h1></section>
+
+		<section><h1>Configuration</h1></section>
+		<!-- Open Folder. Open sublime from command line -->
+
+		<section>
+			<section><h1>Features</h1></section>
+
+			<section>
+				<h4 class="fragment">The Legendary ...</h4>
+				<h3 class="fragment">... the amazing ...</h3>
+				<h2 class="fragment">... the incredible ...</h2>
+				<h1 class="fragment">Control D</h1>
+			</section>
+
+			<section>
+				<h2>Views</h2>
+				<p class="fragment">Alt Shift ...</p>
+			</section>
+
+			<section>
+				<h2>Tabs</h2>
+				<ol>
+					<li class="fragment">control n </li>
+					<li class="fragment">control w </li>
+					<li class="fragment">control shift t </li>
+					<li class="fragment">control PageUp/PageDown </li>
+				</ol>
+			</section>
+
+			<section>
+				<h2>Find and Replace</h2>
+				<ol>
+					<li class="fragment">Control F</li>
+					<li class="fragment">Control H</li>
+					<li class="fragment">Control Shift F</li>
+				</ol>
+			</section>
+
+			<section>
+				<h2>Command Palette</h2>
+				<p>Control Shift P</p>
+			</section>
+
+			<section>
+				<h2>GOTO</h2>
+				<ol>
+					<li class="fragment">Line - Control G</li>
+					<li class="fragment">File - Control P</li>
+					<li class="fragment">html - Control ;</li>
+					<li class="fragment">symbol - Control R</li>
+				</ol>
+			</section>
+
+			<section>
+				<h2>Sublime Ninja Training</h2>	
+				<ol>
+					<li class="fragment">Move Lines - Control Shift ↑ and ↓</li>
+					<li class="fragment">Duplicate Line - Control Shift D</li>
+					<li class="fragment">Select Line - Control L</li>
+					<li class="fragment">Delete Line - Control X</li>
+				</ol>
+				<p class="fragment" style="margin-top: 50px;"><small>"Once you have mastered this, you will have achieved the first step to Nirvana"</small></p>
+			</section>
+		</section>
+
+		<section>
+			<h2>Last Notes</h2>
+			<ul>
+				<li class="fragment">Control-B</li>
+				<li class="fragment">80 Columns</li>
+				<li class="fragment"><a href="http://net.tutsplus.com/tutorials/python-tutorials/how-to-create-a-sublime-text-2-plugin/">build an addon</a></li>
+				<li class="fragment"><a href="http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html">QuickRef</a></li>			
+			</ul>
+
+			<p class="fragment" style="margin-top: 50px;">Always more sublime to be explored</p>
+		</section>
+
+		<section>
+			<h2>Acknowledgements</h2>
+			<ul>
+				<li>Teddy Cleveland for showing me Sublime</li>
+				<li>John Skinner for making Sublime</li>
+				<li>Hakim El Hattab for Reveal.js</li>
+			</ul>
+		</section>
+
+	</div></div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
